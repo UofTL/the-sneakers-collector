@@ -1,6 +1,7 @@
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 const bcrypt = require('bcrypt');
+
 // create our User model
 class User extends Model {
   // set up method to run on instance data (per user) to check password
@@ -36,7 +37,6 @@ User.init(
       validate: {
         len: [4]
       }
-    
   },
   product_id:{
     type: DataTypes.INTEGER,
@@ -52,4 +52,5 @@ User.init(
     modelName: 'user'
   }
 );
+
 module.exports = User;
