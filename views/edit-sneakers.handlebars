@@ -1,0 +1,35 @@
+{{!-- <article>
+  <a href="/dashboard"> &larr; Back to dashboard</a>
+  <h2>
+    Edit Sneakers
+  </h2>
+  <form class="edit-sneakers-form">
+    <div>
+      <input name="sneakers-title" type="text" value="{{sneakers.title}}" />
+      <span>({{format_url sneakers.sneakers_url}})</span>
+    </div>
+    <div>
+      {{sneakers.vote_count}} {{format_plural "point" sneakers.vote_count}} by you on {{format_date sneakers.created_at}}
+      |
+      <a href="/sneakers/{{sneakers.id}}">{{sneakers.comments.length}} {{format_plural "comment" sneakers.comments.length}}</a>
+    </div>
+    <button type="submit">Save sneakers</button>
+    <button type="button" class="delete-sneakers-btn">Delete sneakers</button>
+  </form>
+</article>
+
+<form class="comment-form">
+  <div>
+    <textarea name="comment-body"></textarea>
+  </div>
+
+  <div>
+    <button type="submit">add comment</button>
+  </div>
+</form>
+
+{{> comments sneakers.comments}}
+
+<script src="/javascript/edit-sneakers.js"></script>
+<script src="/javascript/delete-sneakers.js"></script>
+<script src="/javascript/comment.js"></script> --}}

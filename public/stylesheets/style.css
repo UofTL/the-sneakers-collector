@@ -1,0 +1,32 @@
+header {
+    text-align: center;
+}
+
+main {
+    background-color: #000000;
+    padding: 0 0 15px 0;
+}
+
+footer {
+    text-align: center;
+    text-decoration: none;
+}
+
+.comment-body {
+    height: 120px;
+    width: 590px;
+}
+
+#sneakers-pic {
+    width: 200px;
+    height: 300px;
+}
+
+.inv-head {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #be9e44;
+}
