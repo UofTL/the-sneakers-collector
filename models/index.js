@@ -1,19 +1,58 @@
 const User = require('./User');
-const Product = require('./Product');
-const UserList = require('./UserList');
+const Sneakers = require('./Sneakers');
+const Comment = require('./Comment');
+const Vote = require('./Vote');
 
-// Products belongsTo User
-Product.belongsTo(User);
+User.hasMany(Sneakers, {
+    foreignKey: 'user_id'
+});
 
-// User have many Products
-User.hasMany(Product);
+Sneakers.belongsTo(User, {
+    foreignKey: 'user_id',
+});
 
-// Products belongToMany Tags (through ProductTag)
-UserList.belongsToMany(User,{through:Product});
+User.belongsToMany(Sneakers, {
+    through: Vote,
+    as: 'voted_sneakers',
+    foreignKey: 'user_id'
+});
 
-module.exports = {
-  Product,
-  User,
-  UserList,
-  
-};
+Sneakers.belongsToMany(User, {
+    through: Vote,
+    as: 'voted_sneakers',
+    foreignKey: 'sneakers_id'
+});
+
+Vote.belongsTo(User, {
+    foreignKey: 'user_id'
+});
+
+Vote.belongsTo(Sneakers, {
+    foreignKey: 'sneakers_id'
+});
+
+User.hasMany(Vote, {
+    foreignKey: 'user_id'
+});
+
+Sneakers.hasMany(Vote, {
+    foreignKey: 'sneakers_id'
+});
+
+Comment.belongsTo(User, {
+    foreignKey: 'user_id'
+});
+
+Comment.belongsTo(Sneakers, {
+    foreignKey: 'sneakers_id'
+});
+
+User.hasMany(Comment, {
+    foreignKey: 'user_id'
+});
+
+Sneakers.hasMany(Comment, {
+    foreignKey: 'sneakers_id'
+});
+
+module.exports = { User, Sneakers, Vote, Comment };

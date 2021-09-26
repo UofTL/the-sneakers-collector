@@ -1,0 +1,40 @@
+
+<div class="row justify-content-center">
+<div class="col-md-9">
+<!-- displaying articles -->
+{{> inventory-cards sneakers}}
+</div>  </div>
+<!-- displaying form and comments-->
+<!-- only display if logged in -->
+{{#if loggedIn}}
+<div class="">
+  <div class="row justify-content-center">
+    <div class="card col-md-6">
+      <form class="comment-form">
+        <div class="m-3">
+          <textarea class="comment-body" name="comment-body"></textarea>
+        </div>
+
+        <div class="row justify-content-center">
+          <button type="submit" class="btn-primary rounded m-3">Add Comment</button>
+          <button type="button" class="upVote-btn btn-primary rounded m-3" id="upVote-btn">Vote</button>
+          <button type="delete" class="btn-danger rounded m-3" id="delete-sneakers-btn">Delete Sneakers</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+{{/if}}
+
+<div class="row justify-content-center">
+    <div class="card col-md-6 m-3">
+
+{{> comments sneakers.comments}}
+
+</div></div>
+
+{{#if loggedIn}}
+<script src="/javascript/comment.js"></script>
+<script src="/javascript/upVote.js"></script>
+<script src="/javascript/delete-sneakers.js"></script>
+{{/if}}
