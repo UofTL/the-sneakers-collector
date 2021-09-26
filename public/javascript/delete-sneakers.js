@@ -16,7 +16,7 @@ async function deleteFormHandler(event) {
     });
 
     if (response.ok) {
-        document.location.replace('/inventory/');
+        document.location.replace('/collection/');
     } else {
         alert(response.statusText);
     }
