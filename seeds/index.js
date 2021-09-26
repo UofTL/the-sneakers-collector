@@ -1,5 +1,7 @@
 //Placeholders...
+
 const seedSneakers = require('./sneakers-seeds');
+
 
 const sequelize = require('../config/connection');
 
