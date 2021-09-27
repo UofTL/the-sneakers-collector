@@ -63,9 +63,9 @@ footer {
     padding-bottom: 0;
 }
 
-.comment-body {
+textarea {
     height: 120px;
-    width: 590px;
+    width: 400px;
 }
 
 #sneakers-pic {
@@ -76,6 +76,7 @@ footer {
     margin-right: 40px;
     margin-left: 10px;
     padding: 10px;
+    margin-bottom: 20px ;
 }
 
 .inv-head {
