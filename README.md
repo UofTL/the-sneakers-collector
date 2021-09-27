@@ -4,8 +4,15 @@ Live URL:https://stormy-wave-68711.herokuapp.com/
 Repo URL:https://github.com/UofTL/the-sneakers-collector.git
 
 This CMS-style site is similar to a Wordpress site. It give opportunity to user to publish their sneakers collection, posts, and comment on vote on users' collection as well. 
-## User Story
 
+## Screen Shots
+
+![image](https://user-images.githubusercontent.com/84641285/134827755-bfad7e23-f57c-4374-afe1-06c01f087a8e.png)
+![image](https://user-images.githubusercontent.com/84641285/134827891-a0d216f2-2ac3-453a-97f9-21e1c6b52dc9.png)
+![image](https://user-images.githubusercontent.com/84641285/134827920-5d4cffdb-52f8-4907-bd94-9a8adcd4b290.png)
+![image](https://user-images.githubusercontent.com/84641285/134827932-09cd79e8-c610-45e2-a6f2-944da77dee68.png)
+
+## User Story
 ```md
 AS A sneakers collector who is passioned with expensive sneakers
 I WANT a CMS-style app site
@@ -45,25 +52,7 @@ THEN I am signed out of the site
 WHEN I am idle on the site for more than a set time
 THEN I am able to view comments but I am prompted to log in again before I can add, update, or delete comments
 ```
-## Install
-
-Clone project.
-Run the following line of code in your terminal to install all the needed packages: 
-```
-npm i
-```
-## Usage
-- Once all the packages have been installed, open terminal and run the following code in command line : 
-  - mysql -u root -p
-  - source db/schema.sql
-  - quit
-  - cd ./seeds
-  - node index.js
-  - cd ../
-  - npm start
-
-```
-## Built With
+## Build With
 - SQL
 - GitBash
 - GitHub
@@ -90,8 +79,21 @@ npm i
   - Nodemon
   - Sequelize
 
-## Screen shots
-![image](https://user-images.githubusercontent.com/84641285/134827755-bfad7e23-f57c-4374-afe1-06c01f087a8e.png)
-![image](https://user-images.githubusercontent.com/84641285/134827891-a0d216f2-2ac3-453a-97f9-21e1c6b52dc9.png)
-![image](https://user-images.githubusercontent.com/84641285/134827920-5d4cffdb-52f8-4907-bd94-9a8adcd4b290.png)
-![image](https://user-images.githubusercontent.com/84641285/134827932-09cd79e8-c610-45e2-a6f2-944da77dee68.png)
+## Install
+
+Clone project.
+Run the following line of code in your terminal to install all the needed packages: 
+```
+npm i
+```
+## Usage
+- Once all the packages have been installed, open terminal and run the following code in command line : 
+  - mysql -u root -p
+  - source db/schema.sql
+  - quit
+  - cd ./seeds
+  - node index.js
+  - cd ../
+  - npm start
+
+```
