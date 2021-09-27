@@ -1,107 +1,116 @@
 <main class="">
-        <div class="container">
-            <div class="d-flex justify-content-around align-items-center p-3">
-                <h2 class="text-light">My Collection</h2>
-                <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-                    Add
-                </button>                
-                <!-- Modal -->
-                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog" role="document">
+    <div class="container">
+        <div class="d-flex justify-content-around align-items-center p-3">
+            <h2 class="text-light">My Collection</h2>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                Add
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Add A Sneakers</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
+                            <h5 class="modal-title" id="exampleModalLabel">Add A Sneakers</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
                         </div>
                         <div class="modal-body">
 
 
-        <!-- Form goes here -->
-        <form class="new-sneakers">
-        <div>
-            <label for="sneakers">Choose your sneakers from the list:</label>
-            <input list="sneakers" name="sneakers" id="sneakers">
-            {{!-- will pull from API to fill with #each --}}
-            <datalist id="sneakers">
-                <option value="solid-gold-OVO">
-                <option value="MJ-JO1984-signed">
-                <option value="buscemi-100-MM-diamond">
-                <option value="AJ12-flu-game">
-                <option value="AJ12-OVO-drake-edition">
-                <option value="diamond-encrusted-AF1">
-                <option value="AJ11-jeter">
-               </datalist>
-        </div>
-        <div>
-            <label for="size">Select a sneakers size:</label>
-            <input list="sizes" name="size" id="size">
-            {{!-- Current sneakers sizes, leave this hardcoded --}}
-            <datalist id="sizes">
-                <option value="12 size">
-                <option value="7 size">
-                <option value="12.5 size">
-                <option value="10 size">
-                <option value="13 size">
-                <option value="10.5 size">
-                <option value="13.5 size">
-            </datalist>
-        </div>
-        <div>
-            <label for="retail-price">What is the retail price of the sneakers?</label>
-            <input type="number" id="retail-price" />
-        </div>
-        <div>
-            <label for="resale-price">What is the resale price of the sneakers?</label>
-            <input type="number" id="resale-price" />
-        </div>
-        <div>
-            <label for="notes">Any notes about this sneakers?</label>
-            <input type="text" id="notes" />
-        </div>
-    
+                            <!-- Form goes here -->
+                            <form class="new-sneakers">
+                                <div>
+                                    <label for="sneakers">Choose your sneakers from the list:</label>
+                                    <input list="sneakers" name="sneakers" id="sneakers">
+                                    {{!-- will pull from API to fill with #each --}}
+                                    <datalist id="sneakers">
+                                        <option value="solid-gold-OVO">
+                                        <option value="MJ-JO1984-signed">
+                                        <option value="buscemi-100-MM-diamond">
+                                        <option value="AJ12-flu-game">
+                                        <option value="AJ12-OVO-drake-edition">
+                                        <option value="diamond-encrusted-AF1">
+                                        <option value="AJ11-jeter">
+                                    </datalist>
+                                </div>
+                                <div>
+                                    <label for="size">Select a sneakers size:</label>
+                                    <input list="sizes" name="size" id="size">
+                                    {{!-- Current sneakers sizes, leave this hardcoded --}}
+                                    <datalist id="sizes">
+                                        <option value="12 size">
+                                        <option value="7 size">
+                                        <option value="12.5 size">
+                                        <option value="10 size">
+                                        <option value="13 size">
+                                        <option value="10.5 size">
+                                        <option value="13.5 size">
+                                    </datalist>
+                                </div>
+                                <div>
+                                    <label for="retail-price">What is the retail price of the sneakers?</label>
+                                    <input type="number" id="retail-price" />
+                                </div>
+                                <div>
+                                    <label for="resale-price">What is the resale price of the sneakers?</label>
+                                    <input type="number" id="resale-price" />
+                                </div>
+                                <div>
+                                    <label for="notes">Any notes about this sneakers?</label>
+                                    <input type="text" id="notes" />
+                                </div>
+
                         </div>
                         <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button submit" class="btn btn-primary" id="submit">Save changes</button>
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button submit" class="btn btn-primary" id="submit">Save changes</button>
                         </div>
                         </form>
                     </div>
-                    </div>
                 </div>
-                <!-- Sort Button Future Development-->
-                {{!-- <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Sort
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Name</a>
-                        <a class="dropdown-item" href="#">Rating: Highest to Lowest</a>
-                        <a class="dropdown-item" href="#">Rating: Lowest to Highest</a>
-                    </div>
-                </div> --}}
-            
-
             </div>
-            <!-- List -->
-            <ol class="container animate__animated animate__fadeInUp">
-                {{#if sneakers.length}}
-                    {{#each sneakers as |sneakers|}}
-                        {{>inventory-cards sneakers}}
-                    {{/each}}
-            </ol>
-                    {{else}}
-                    <h6 class="text-center text-light font-italic m-3">You do not currently have any sneakers!</h6>
-                {{/if}}
-        </div>
-    </main>
+            <!-- Sort Button Future Development-->
+            {{!-- <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Sort
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Name</a>
+                    <a class="dropdown-item" href="#">Rating: Highest to Lowest</a>
+                    <a class="dropdown-item" href="#">Rating: Lowest to Highest</a>
+                </div>
+            </div> --}}
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+        </div>
+        <!-- List -->
+        <ol class="container animate__animated animate__fadeInUp">
+            {{#if sneakers.length}}
+            {{#each sneakers as |sneakers|}}
+            {{>inventory-cards sneakers}}
+            {{/each}}
+        </ol>
+        {{else}}
+        <h6 class="text-center text-light font-italic m-3">You do not currently have any sneakers!</h6>
+        {{/if}}
+    </div>
+</main>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
 
 <script src="/javascript/sneakers.js"></script>

@@ -1,3 +1,6 @@
+body{
+    color: black;
+}
 header {
     text-align: center;
     background-color: #be9e44;
@@ -12,6 +15,10 @@ header img {
     border-radius: 20px;
     margin: 20px;
     padding: 15px 0 15px 0;
+}
+
+.main h2 {
+    color: black;
 }
 
 footer {
