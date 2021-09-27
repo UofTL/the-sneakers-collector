@@ -5,7 +5,7 @@
 // const userData = [
 //   {
 //     username: 'test',
-//     type: 'Bourbon',
+//     type: 'AJ',
 //     created_at: new Date(),
 //     // comments: [{}, {}],
 //     // user: {
@@ -13,7 +13,7 @@
 //     // }
 //   },
 
- 
+
 // ];
 
 // const seedUsers = () => Users.bulkCreate(userData);

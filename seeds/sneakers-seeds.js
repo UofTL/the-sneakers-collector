@@ -3,7 +3,7 @@
 const { Sneakers } = require('../models');
 
 const SneakersData = [{
-        name: 'Air Jordan X OG',
+        name: 'solid-gold-OVO',
         type: 'Jordan',
         created_at: new Date(),
         // comments: [{}, {}],
@@ -12,8 +12,8 @@ const SneakersData = [{
         // }
     },
     {
-        name: 'Chuck Taylor All Star ',
-        type: 'Converse',
+        name: 'MJ-JO1984-signed',
+        type: 'Jordan',
         created_at: new Date(),
         // comments: [{}, {}],
         // user: {
@@ -21,7 +21,7 @@ const SneakersData = [{
         // }
     },
     {
-        name: 'Air Jordan 1',
+        name: 'buscemi-100-MM-diamond',
         type: 'Jordan',
         created_at: new Date(),
         // comments: [{}, {}],
