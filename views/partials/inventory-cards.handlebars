@@ -1,26 +1,28 @@
-                <li class="row justify-content-center m-3">
-                    <div class="col-md-9">
-                        <div class="card shadow bg-white rounded">
-                            <div class="card-header">
-                                <div class="row">
-                                <span class="col-4 font-weight-bold"><a href="/collection/sneakers/{{id}}"><i class="fas fa-glass-sneakers"></i>  {{name}}</a></span>
-                                <span class="col-4 font-italic"></span>
-                                <span class="col-4 text-right font-weight-bold">{{vote_count}} {{format_plural "vote" vote_count}}</span>
-                                </div>
-                            </div>
-                            <div class="card-body row">
-                                <img id="sneakers-pic" class="rounded" src="/images/{{name}}.jpg" alt="{{name}}">
-                                <div class="col-7">
-                                    <p>Owner: {{user.username}}</p>
-                                    <p>sneakers Size: {{sneakers_size}}</p>
-                                    <p>Price Paid: ${{price_paid}}</p>
-                                    <p>Resell Value: ${{resell_value}}</p>
-                                    <p>Notes: {{notes}}</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
+<li class="row justify-content-center m-3">
+    <div class="col-md-9">
+        <div class="card shadow bg-white rounded">
+            <div class="card-header">
+                <div class="row">
+                    <span class="col-4 font-weight-bold"><a href="/collection/sneakers/{{id}}"><i
+                                class="fas fa-glass-sneakers"></i> {{name}}</a></span>
+                    <span class="col-4 font-italic"></span>
+                    <span class="col-4 text-right font-weight-bold">{{vote_count}} {{format_plural "vote"
+                        vote_count}}</span>
+                </div>
+            </div>
+            <div class="card-body row">
+                <img id="sneakers-pic" class="rounded" src="/images/{{name}}.jpg" alt="{{name}}">
+                <div class="col-7">
+                    <p>Owner: {{user.username}}</p>
+                    <p>sneakers Size: {{sneakers_size}}</p>
+                    <p>Price Paid: ${{price_paid}}</p>
+                    <p>Resell Value: ${{resell_value}}</p>
+                    <p>Notes: {{notes}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</li>
 
 
 <script src="/javascript/upVote.js"></script>

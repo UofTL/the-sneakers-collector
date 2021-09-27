@@ -24,17 +24,17 @@
                             <form class="new-sneakers">
                                 <div>
                                     <label for="sneakers">Choose your sneakers from the list:</label>
-                                    <input list="sneakers" name="sneakers" id="sneakers">
+
                                     {{!-- will pull from API to fill with #each --}}
-                                    <datalist id="sneakers">
-                                        <option value="solid-gold-OVO">
-                                        <option value="MJ-JO1984-signed">
-                                        <option value="buscemi-100-MM-diamond">
-                                        <option value="AJ12-flu-game">
-                                        <option value="AJ12-OVO-drake-edition">
-                                        <option value="diamond-encrusted-AF1">
-                                        <option value="AJ11-jeter">
-                                    </datalist>
+                                    <select class="form-control" id="sneakers">
+                                        <option value="solid-gold-OVO">Solid-Gold-OVO</option>
+                                        <option value="MJ-JO1984-signed">MJ-JO1984-signed</option>
+                                        <option value="buscemi-100-MM-diamond">Buscemi-100-MM-diamond</option>
+                                        <option value="AJ12-flu-game">AJ12-flu-game</option>
+                                        <option value="AJ12-OVO-drake-edition">AJ12-OVO-drake-edition</option>
+                                        <option value="diamond-encrusted-AF1">Diamond-Encrusted-AF1</option>
+                                        <option value="AJ11-jeter">AJ11-jeter</option>
+                                    </select>
                                 </div>
                                 <div>
                                     <label for="size">Select a sneakers size:</label>
