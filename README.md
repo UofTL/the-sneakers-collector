@@ -7,14 +7,13 @@ This CMS-style site is similar to a Wordpress site. It give opportunity to user 
 
 ## Screen Shots
 
-![image](https://user-images.githubusercontent.com/84641285/134827755-bfad7e23-f57c-4374-afe1-06c01f087a8e.png)
-![image](https://user-images.githubusercontent.com/84641285/134827891-a0d216f2-2ac3-453a-97f9-21e1c6b52dc9.png)
-![image](https://user-images.githubusercontent.com/84641285/134827920-5d4cffdb-52f8-4907-bd94-9a8adcd4b290.png)
-![image](https://user-images.githubusercontent.com/84641285/134827932-09cd79e8-c610-45e2-a6f2-944da77dee68.png)
+![image](https://user-images.githubusercontent.com/84641285/135176803-0815b0bf-44db-49e1-8570-d4a5766758d9.png)
+![image](https://user-images.githubusercontent.com/84641285/135176865-90075ef5-6ca5-4732-a160-8a5941153464.png)
+![image](https://user-images.githubusercontent.com/84641285/135176982-84455d6f-d34e-4dbb-b5e0-61a3b130ae73.png)
 
 ## User Story
 ```md
-AS A sneakers collector who is passioned with expensive sneakers
+AS A sneakers collector who is passioned with very expensive sneakers
 I WANT a CMS-style app site
 SO THAT I can display my collection, and other's  user can vote on my collection
 ```
@@ -59,6 +58,7 @@ THEN I am able to view comments but I am prompted to log in again before I can a
 - Insomnia
 - Handlebars
 - CSS
+- Heroku
 - Screencastify 
 - Word
 - PTT
