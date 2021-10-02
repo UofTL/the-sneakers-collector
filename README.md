@@ -4,6 +4,8 @@ Live URL:https://stormy-wave-68711.herokuapp.com/
 Repo URL:https://github.com/UofTL/the-sneakers-collector.git
 
 This CMS-style site is similar to a Wordpress site. It give opportunity to user to publish their sneakers collection, posts, and comment on vote on users' collection as well. 
+## Test
+* ![markdown-preview-image](./video/test.gif)
 
 ## Screen Shots
 
@@ -52,21 +54,21 @@ WHEN I am idle on the site for more than a set time
 THEN I am able to view comments but I am prompted to log in again before I can add, update, or delete comments
 ```
 ## Build With
-- SQL
+- Discord
+- CSS
 - GitBash
 - GitHub
-- Insomnia
-- Handlebars
-- CSS
-- Heroku
-- Screencastify 
-- JawsDB MySQL
-- Zoom
 - Google Meet
-- Discord
-- Word
-- PTT
+- Handlebars
+- Heroku
+- Insomnia
 - JavaScript
+- JawsDB MySQL
+- Powerpoint
+- Screencastify 
+- SQL
+- Word
+- Zoom
 - Node.js
   - bcrypt 
   - Bulma

@@ -1,20 +1,29 @@
-// Mocha tests - for future development
 
-// Starter test from mochajs.org
-// var assert = require('assert');
-// describe('Array', function () {
-//   describe('#indexOf()', function () {
-//     it('should return -1 when the value is not present', function () {
-//       assert.equal([1, 2, 3].indexOf(4), -1);
-//     });
-//   });
-// });
+const {format_date} = require('../utils/helpers');
 
-// describe('Math', function() {
-//     it('should test if 3*3 = 9', function(){
-//       assert.equal(9, 3*3);
-//     });
-//     it('should test if (3-4)*8 = -8', function(){
-//       assert.equal(-8, (3-4)*8);
-//     });
-// });
+test('format_date() returns a date string', () => {
+    const date = new Date('2020-03-20 16:12:03');
+    expect(format_date(date)).toBe('3/20/2020');
+});
+
+const {format_plural} =  require('../utils/helpers');
+
+test('format_plural() returns a pluralized word', () => {
+    expect(format_plural("comment",2)).toBe("comments");
+
+    expect(format_plural("comment",1)).toBe("comment");
+});
+
+const {format_deburr} = require('../utils/helpers');
+
+test ('format_deburr() return deburred string',() =>{
+    expect(format_deburr("déjà")).toBe("deja");
+});
+
+const {format_isEmpty} = require('../utils/helpers');
+
+test (' format_isEmpty() return boolean results',() =>{
+    expect(format_isEmpty(null)).toBeTruthy();
+    expect(format_isEmpty([1,2,3])).toBeFalsy();
+
+});
