@@ -6,7 +6,7 @@ async function deleteFormHandler(event) {
     ];
 
 
-    const response = await fetch(`/api/sneakers/${id}`, {
+    const response = await fetch(`/api/delete-sneakers/${id}`, {
         method: 'DELETE',
         body: JSON.stringify({
             sneakers_id: id
