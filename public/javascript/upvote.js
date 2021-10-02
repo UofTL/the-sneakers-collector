@@ -22,4 +22,4 @@ async function upVoteClickHandler(event) {
     }
 }
 
-document.querySelector('#upVote-btn').addEventListener('click', upVoteClickHandler);
+document.querySelector('.upVote-btn').addEventListener('click', upVoteClickHandler);

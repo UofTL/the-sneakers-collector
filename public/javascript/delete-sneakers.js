@@ -37,4 +37,4 @@ async function deleteFormHandler(event) {
     // }
 
 }
-document.querySelector('#delete-sneakers-btn').addEventListener('click', deleteFormHandler);
+document.querySelector('.delete-sneakers-btn').addEventListener('click', deleteFormHandler);
