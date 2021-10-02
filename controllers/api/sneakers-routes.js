@@ -129,7 +129,7 @@ router.put('/upvote', withAuth, (req, res) => {
 
 // Delete sneakers
 router.delete('/:id', withAuth, (req, res) => {
-    sneakers.destroy({
+    Sneakers.destroy({
             where: {
                 id: req.params.id
             }
