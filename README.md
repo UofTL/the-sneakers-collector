@@ -116,7 +116,7 @@ npm i
   * Planning and Execution
 
 ## The Presentation
-[Part 1](https://drive.google.com/file/d/1aTi4wWzobMGEX5o1mAC6qdP_o6hXjEbZ/preview")
+[Part 1](https://drive.google.com/file/d/1aTi4wWzobMGEX5o1mAC6qdP_o6hXjEbZ/preview)
 
 [Part 2](https://drive.google.com/file/d/1RDway30sSWcVdHYTn8cFs7AaEGZgaUrd/preview)
 
