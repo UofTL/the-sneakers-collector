@@ -102,4 +102,40 @@ npm i
   - cd ../
   - npm start
 
+
+## Challenges 
+  * Merging Conflicts
+  * Getting server up and running
+  * Troubleshooting Node Packages
+  * Deployment
+
+## Successes
+  * Aligned on an idea early on
+  * Distribution of responsibilities
+  * Communication & Helping each other
+  * Planning and Execution
+
+## The Presentation
+[Part 1](https://drive.google.com/file/d/1aTi4wWzobMGEX5o1mAC6qdP_o6hXjEbZ/preview")
+
+[Part 2](https://drive.google.com/file/d/1RDway30sSWcVdHYTn8cFs7AaEGZgaUrd/preview)
+
+## The Project Deployment
+[The Sneakers Collector](https://peaceful-fortress-81224.herokuapp.com/)
+
+## Github Repository
+[Github](https://github.com/UofTL/the-sneakers-collector.git)
+
+## The Team
+### Team Members  |  Github Link
+
+Eleonore Caclard  | [Github](https://github.com/UofTL)
+
+Sumant Singh      | [Github](https://github.com/sumantpaldm)
+
+Bill Geng         | [Github](https://github.com/billgeng)
+
+Neil Hall         | [Github](https://github.com/Jahneo)
+
+Jason Grossman    | [Github](https://github.com/jasoncrossman)
 ```
