@@ -1,6 +1,6 @@
 # the sneakers-collector
 
-Live URL:https://stormy-wave-68711.herokuapp.com/
+Live URL:https://peaceful-fortress-81224.herokuapp.com/
 Repo URL:https://github.com/UofTL/the-sneakers-collector.git
 
 This CMS-style site is similar to a Wordpress site. It give opportunity to user to publish their sneakers collection, posts, and comment on vote on users' collection as well. 
