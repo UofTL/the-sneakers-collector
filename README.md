@@ -137,5 +137,5 @@ Bill Geng         | [Github](https://github.com/billgeng)
 
 Neil Hall         | [Github](https://github.com/Jahneo)
 
-Jason Grossman    | [Github](https://github.com/jasoncrossman)
+Jason Grossman    | [Github](https://github.com/jasongrossman)
 ```
