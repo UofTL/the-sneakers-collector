@@ -5,7 +5,7 @@ Repo URL:https://github.com/UofTL/the-sneakers-collector.git
 
 This CMS-style site is similar to a Wordpress site. It give opportunity to user to publish their sneakers collection, posts, and comment on vote on users' collection as well. 
 ## Test
-* ![markdown-preview-image](./video/test.gif)
+* ![markdown-preview-image](./public/videos/test.gif)
 
 ## Screen Shots
 
