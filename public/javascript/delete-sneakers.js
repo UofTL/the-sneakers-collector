@@ -6,7 +6,7 @@ async function deleteFormHandler(event) {
     ];
 
 
-    const response = await fetch(`/api/delete-sneakers/${id}`, {
+    const response = await fetch(`/api/sneakers/${id}`, {
         method: 'DELETE',
         body: JSON.stringify({
             sneakers_id: id
@@ -37,4 +37,4 @@ async function deleteFormHandler(event) {
     // }
 
 }
-document.querySelector('.delete-sneakers-btn').addEventListener('click', deleteFormHandler);
+document.querySelector('#delete-sneakers-btn').addEventListener('click', deleteFormHandler);
